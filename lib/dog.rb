@@ -1,8 +1,9 @@
-require 'pry'
-
 class Dog
   def initialize(name)
     @name = name
-    binding.pry
+  end
+
+  def name
+    @name
   end
 end
